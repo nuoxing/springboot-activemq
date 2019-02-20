@@ -1,10 +1,12 @@
 package com.work;
 
+import org.selfdefine.starter.HelloServiceAutoConfigure;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.boot.autoconfigure.jdbc.DataSourceAutoConfiguration;
 import org.springframework.boot.builder.SpringApplicationBuilder;
 import org.springframework.boot.web.support.SpringBootServletInitializer;
+import org.springframework.context.annotation.Import;
 
 /**
  * 项目启动类
@@ -12,6 +14,7 @@ import org.springframework.boot.web.support.SpringBootServletInitializer;
  * @SpringBootApplication springboot应用注解
  *
  */
+@Import(HelloServiceAutoConfigure.class)
 @SpringBootApplication(exclude={DataSourceAutoConfiguration.class})
 public class Application extends SpringBootServletInitializer{
 

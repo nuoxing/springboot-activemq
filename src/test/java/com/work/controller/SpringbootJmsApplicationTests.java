@@ -1,6 +1,5 @@
 package com.work.controller;
 
-
 import javax.jms.Destination;
 
 import org.apache.activemq.command.ActiveMQQueue;
