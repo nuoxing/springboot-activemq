@@ -41,8 +41,22 @@ public class SpringbootJmsApplicationTests {
 	@Test
 	public void test() throws InterruptedException {
 		Destination destination = new ActiveMQTopic("mytest.topic");
-		for(int i=0; i<2; i++){
+		for(int i=0; i<10; i++){
 			producer.sendMessage(destination, "topic is chhliu!!!");
+		}
+		Thread.sleep(100000);
+	}
+ 
+	
+	/**
+	 * 虚拟topic测试
+	 * @throws InterruptedException
+	 */
+	@Test
+	public void test2() throws InterruptedException {
+		Destination destination = new ActiveMQTopic("VirtualTopic.topic");
+		for(int i=0; i<2; i++){
+			producer.sendMessage(destination, "VirtualTopic is chhliu!!!");
 		}
 		Thread.sleep(100000);
 	}
