@@ -27,7 +27,6 @@ public class SpringbootJmsApplicationTests {
 	@Test
 	public void contextLoads() throws InterruptedException {
 		Destination destination = new ActiveMQQueue("mytest.queue");
-		
 		for(int i=0; i<10; i++){
 			producer.sendMessage(destination, "myname is chhliu!!!");
 		}

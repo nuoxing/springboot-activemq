@@ -1,6 +1,7 @@
 package com.work.config;
 
 import javax.jms.ConnectionFactory;
+import javax.jms.Session;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
@@ -23,6 +24,13 @@ public class ActivemqConfig {
         DefaultJmsListenerContainerFactory factory = new DefaultJmsListenerContainerFactory();
         factory.setPubSubDomain(false);
         factory.setConnectionFactory(activeMQConnectionFactory);
+        
+        //手动ack配置
+        factory.setSessionTransacted(false);
+        factory.setSessionAcknowledgeMode(4);//配置这个没有效果CLIENT_ACKNOWLEDGE = 2
+        //手动ack配置
+        
+        factory.setConcurrency("5");
         return factory;
     }
  
@@ -40,6 +48,7 @@ public class ActivemqConfig {
         //持久化 topic 的listenerContainerFactory必须设置 setSubscriptionDurable(true)  setPubSubDomain(true) 并且设置 clientId
         factory.setSubscriptionDurable(true);// Set this to "true" to register a durable subscription,
         factory.setClientId("A");
+      //发布订阅模式下的 消息持久化配置
         
         factory.setConnectionFactory(activeMQConnectionFactory);
        
