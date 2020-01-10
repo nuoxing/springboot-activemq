@@ -1,11 +1,40 @@
-2019-01-18 15:56:00,314 INFO (StartupInfoLogger.java:48)- Starting Application on USER-20151010LK with PID 17172 (started by Administrator in E:\市局内网审批系统workspace\spring-boot-activemq)
-2019-01-18 15:56:00,411 DEBUG (StartupInfoLogger.java:51)- Running with Spring Boot v1.5.2.RELEASE, Spring v4.3.7.RELEASE
-2019-01-18 15:56:00,416 INFO (SpringApplication.java:637)- No active profile set, falling back to default profiles: default
-2019-01-18 15:56:23,389 INFO (StartupInfoLogger.java:57)- Started Application in 24.661 seconds (JVM running for 26.218)
-2019-01-18 15:57:46,930 INFO (StartupInfoLogger.java:48)- Starting Application on USER-20151010LK with PID 27992 (started by Administrator in E:\市局内网审批系统workspace\spring-boot-activemq)
-2019-01-18 15:57:46,933 DEBUG (StartupInfoLogger.java:51)- Running with Spring Boot v1.5.2.RELEASE, Spring v4.3.7.RELEASE
-2019-01-18 15:57:46,933 INFO (SpringApplication.java:637)- No active profile set, falling back to default profiles: default
-2019-01-18 15:58:55,734 INFO (StartupInfoLogger.java:48)- Starting Application on USER-20151010LK with PID 29268 (started by Administrator in E:\市局内网审批系统workspace\spring-boot-activemq)
-2019-01-18 15:58:55,737 DEBUG (StartupInfoLogger.java:51)- Running with Spring Boot v1.5.2.RELEASE, Spring v4.3.7.RELEASE
-2019-01-18 15:58:55,737 INFO (SpringApplication.java:637)- No active profile set, falling back to default profiles: default
-2019-01-18 15:58:59,226 INFO (StartupInfoLogger.java:57)- Started Application in 3.799 seconds (JVM running for 4.207)
+2019-11-21 08:50:27,696 INFO (StartupInfoLogger.java:48)- Starting SpringbootJmsApplicationTests on USER-20151010LK with PID 27416 (started by Administrator in E:\市局内网审批系统workspace\spring-boot-activemq)
+2019-11-21 08:50:27,702 DEBUG (StartupInfoLogger.java:51)- Running with Spring Boot v1.5.2.RELEASE, Spring v4.3.7.RELEASE
+2019-11-21 08:50:27,703 INFO (SpringApplication.java:637)- No active profile set, falling back to default profiles: default
+2019-11-21 08:50:30,755 INFO (StartupInfoLogger.java:57)- Started SpringbootJmsApplicationTests in 3.35 seconds (JVM running for 3.899)
+2019-11-21 09:16:57,778 INFO (StartupInfoLogger.java:48)- Starting SpringbootJmsApplicationTests on USER-20151010LK with PID 23692 (started by Administrator in E:\市局内网审批系统workspace\spring-boot-activemq)
+2019-11-21 09:16:57,779 DEBUG (StartupInfoLogger.java:51)- Running with Spring Boot v1.5.2.RELEASE, Spring v4.3.7.RELEASE
+2019-11-21 09:16:57,779 INFO (SpringApplication.java:637)- No active profile set, falling back to default profiles: default
+2019-11-21 09:17:00,858 INFO (StartupInfoLogger.java:57)- Started SpringbootJmsApplicationTests in 3.38 seconds (JVM running for 3.968)
+2019-11-21 09:17:41,559 INFO (StartupInfoLogger.java:48)- Starting SpringbootJmsApplicationTests on USER-20151010LK with PID 42076 (started by Administrator in E:\市局内网审批系统workspace\spring-boot-activemq)
+2019-11-21 09:17:41,560 DEBUG (StartupInfoLogger.java:51)- Running with Spring Boot v1.5.2.RELEASE, Spring v4.3.7.RELEASE
+2019-11-21 09:17:41,560 INFO (SpringApplication.java:637)- No active profile set, falling back to default profiles: default
+2019-11-21 09:17:44,587 INFO (StartupInfoLogger.java:57)- Started SpringbootJmsApplicationTests in 3.298 seconds (JVM running for 3.85)
+2019-11-21 09:18:17,774 INFO (StartupInfoLogger.java:48)- Starting SpringbootJmsApplicationTests on USER-20151010LK with PID 6116 (started by Administrator in E:\市局内网审批系统workspace\spring-boot-activemq)
+2019-11-21 09:18:17,776 DEBUG (StartupInfoLogger.java:51)- Running with Spring Boot v1.5.2.RELEASE, Spring v4.3.7.RELEASE
+2019-11-21 09:18:17,777 INFO (SpringApplication.java:637)- No active profile set, falling back to default profiles: default
+2019-11-21 09:18:20,764 INFO (StartupInfoLogger.java:57)- Started SpringbootJmsApplicationTests in 3.272 seconds (JVM running for 3.817)
+2019-11-21 09:19:47,053 INFO (StartupInfoLogger.java:48)- Starting SpringbootJmsApplicationTests on USER-20151010LK with PID 43116 (started by Administrator in E:\市局内网审批系统workspace\spring-boot-activemq)
+2019-11-21 09:19:47,055 DEBUG (StartupInfoLogger.java:51)- Running with Spring Boot v1.5.2.RELEASE, Spring v4.3.7.RELEASE
+2019-11-21 09:19:47,055 INFO (SpringApplication.java:637)- No active profile set, falling back to default profiles: default
+2019-11-21 09:19:50,864 INFO (StartupInfoLogger.java:57)- Started SpringbootJmsApplicationTests in 4.127 seconds (JVM running for 4.946)
+2019-11-21 09:20:27,623 INFO (StartupInfoLogger.java:48)- Starting SpringbootJmsApplicationTests on USER-20151010LK with PID 43308 (started by Administrator in E:\市局内网审批系统workspace\spring-boot-activemq)
+2019-11-21 09:20:27,625 DEBUG (StartupInfoLogger.java:51)- Running with Spring Boot v1.5.2.RELEASE, Spring v4.3.7.RELEASE
+2019-11-21 09:20:27,625 INFO (SpringApplication.java:637)- No active profile set, falling back to default profiles: default
+2019-11-21 09:20:31,488 INFO (StartupInfoLogger.java:57)- Started SpringbootJmsApplicationTests in 4.195 seconds (JVM running for 5.142)
+2019-11-21 09:32:28,260 INFO (StartupInfoLogger.java:48)- Starting SpringbootJmsApplicationTests on USER-20151010LK with PID 43164 (started by Administrator in E:\市局内网审批系统workspace\spring-boot-activemq)
+2019-11-21 09:32:28,261 DEBUG (StartupInfoLogger.java:51)- Running with Spring Boot v1.5.2.RELEASE, Spring v4.3.7.RELEASE
+2019-11-21 09:32:28,261 INFO (SpringApplication.java:637)- No active profile set, falling back to default profiles: default
+2019-11-21 09:32:32,055 INFO (StartupInfoLogger.java:57)- Started SpringbootJmsApplicationTests in 4.096 seconds (JVM running for 4.926)
+2019-11-21 09:34:41,096 INFO (StartupInfoLogger.java:48)- Starting SpringbootJmsApplicationTests on USER-20151010LK with PID 42584 (started by Administrator in E:\市局内网审批系统workspace\spring-boot-activemq)
+2019-11-21 09:34:41,097 DEBUG (StartupInfoLogger.java:51)- Running with Spring Boot v1.5.2.RELEASE, Spring v4.3.7.RELEASE
+2019-11-21 09:34:41,097 INFO (SpringApplication.java:637)- No active profile set, falling back to default profiles: default
+2019-11-21 09:34:44,969 INFO (StartupInfoLogger.java:57)- Started SpringbootJmsApplicationTests in 4.213 seconds (JVM running for 5.201)
+2019-11-21 09:35:38,422 INFO (StartupInfoLogger.java:48)- Starting SpringbootJmsApplicationTests on USER-20151010LK with PID 40596 (started by Administrator in E:\市局内网审批系统workspace\spring-boot-activemq)
+2019-11-21 09:35:38,423 DEBUG (StartupInfoLogger.java:51)- Running with Spring Boot v1.5.2.RELEASE, Spring v4.3.7.RELEASE
+2019-11-21 09:35:38,423 INFO (SpringApplication.java:637)- No active profile set, falling back to default profiles: default
+2019-11-21 09:35:41,134 INFO (StartupInfoLogger.java:57)- Started SpringbootJmsApplicationTests in 2.973 seconds (JVM running for 3.511)
+2019-11-21 09:37:40,666 INFO (StartupInfoLogger.java:48)- Starting SpringbootJmsApplicationTests on USER-20151010LK with PID 43076 (started by Administrator in E:\市局内网审批系统workspace\spring-boot-activemq)
+2019-11-21 09:37:40,668 DEBUG (StartupInfoLogger.java:51)- Running with Spring Boot v1.5.2.RELEASE, Spring v4.3.7.RELEASE
+2019-11-21 09:37:40,668 INFO (SpringApplication.java:637)- No active profile set, falling back to default profiles: default
+2019-11-21 09:37:43,622 INFO (StartupInfoLogger.java:57)- Started SpringbootJmsApplicationTests in 3.253 seconds (JVM running for 3.815)
