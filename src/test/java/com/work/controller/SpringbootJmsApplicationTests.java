@@ -26,10 +26,10 @@ public class SpringbootJmsApplicationTests {
 	 */
 	@Test
 	public void contextLoads() throws InterruptedException {
-		Destination destination = new ActiveMQQueue("mytest.queue");
+	/*	Destination destination = new ActiveMQQueue("mytest.queue");
 		for(int i=0; i<10; i++){
 			producer.sendMessage(destination, "myname is chhliu!!!");
-		}
+		}*/
 		Thread.sleep(100000);
 	}
 	
@@ -40,7 +40,7 @@ public class SpringbootJmsApplicationTests {
 	@Test
 	public void test() throws InterruptedException {
 		Destination destination = new ActiveMQTopic("mytest.topic");
-		for(int i=0; i<10; i++){
+		for(int i=0; i<2; i++){
 			producer.sendMessage(destination, "topic is chhliu!!!");
 		}
 		Thread.sleep(100000);

@@ -14,6 +14,8 @@ public class Producer {
 	private JmsMessagingTemplate jmsTemplate;
 	// 发送消息，destination是发送到的队列，message是待发送的消息
 	public void sendMessage(Destination destination, final String message){
+		jmsTemplate.getJmsTemplate().setExplicitQosEnabled(true);//是否启动  这几个参数配置 deliveryMode, priority, and timeToLive
+		jmsTemplate.getJmsTemplate().setTimeToLive(2000);//消息过期时间设置
 		jmsTemplate.convertAndSend(destination, message);
 	}
 }

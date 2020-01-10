@@ -30,7 +30,10 @@ public class ActivemqConfig {
         factory.setSessionAcknowledgeMode(4);//配置这个没有效果CLIENT_ACKNOWLEDGE = 2
         //手动ack配置
         
-        factory.setConcurrency("5");
+        
+        //配置消费者的多线程 能同时处理的线程数
+        //factory.setConcurrency("7");
+        
         return factory;
     }
  
