@@ -1,0 +1,11 @@
+2019-01-18 15:56:00,314 INFO (StartupInfoLogger.java:48)- Starting Application on USER-20151010LK with PID 17172 (started by Administrator in E:\市局内网审批系统workspace\spring-boot-activemq)
+2019-01-18 15:56:00,411 DEBUG (StartupInfoLogger.java:51)- Running with Spring Boot v1.5.2.RELEASE, Spring v4.3.7.RELEASE
+2019-01-18 15:56:00,416 INFO (SpringApplication.java:637)- No active profile set, falling back to default profiles: default
+2019-01-18 15:56:23,389 INFO (StartupInfoLogger.java:57)- Started Application in 24.661 seconds (JVM running for 26.218)
+2019-01-18 15:57:46,930 INFO (StartupInfoLogger.java:48)- Starting Application on USER-20151010LK with PID 27992 (started by Administrator in E:\市局内网审批系统workspace\spring-boot-activemq)
+2019-01-18 15:57:46,933 DEBUG (StartupInfoLogger.java:51)- Running with Spring Boot v1.5.2.RELEASE, Spring v4.3.7.RELEASE
+2019-01-18 15:57:46,933 INFO (SpringApplication.java:637)- No active profile set, falling back to default profiles: default
+2019-01-18 15:58:55,734 INFO (StartupInfoLogger.java:48)- Starting Application on USER-20151010LK with PID 29268 (started by Administrator in E:\市局内网审批系统workspace\spring-boot-activemq)
+2019-01-18 15:58:55,737 DEBUG (StartupInfoLogger.java:51)- Running with Spring Boot v1.5.2.RELEASE, Spring v4.3.7.RELEASE
+2019-01-18 15:58:55,737 INFO (SpringApplication.java:637)- No active profile set, falling back to default profiles: default
+2019-01-18 15:58:59,226 INFO (StartupInfoLogger.java:57)- Started Application in 3.799 seconds (JVM running for 4.207)
