@@ -88,7 +88,7 @@
 		<dependency>
 			<groupId>com.github.pagehelper</groupId>
 			<artifactId>pagehelper</artifactId>
-			<version>4.1.0</version>
+			<version>5.3.1</version>
 		</dependency>
 		<!-- junit引用 -->
 		<dependency>
